@@ -1,0 +1,91 @@
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.header a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.footer{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    
+}
+
+.links svg{
+    color: white;
+     font-size: 40px;
+     margin-left: 10px;
+     cursor: pointer;
+} 
+.body{
+    width: 100%;
+    align-items: center;
+    background-color: black;
+
+}
+.content {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    
+}
+.body h1{
+    color: #b0b04c;
+    font-size: 80px;
+}
+.body p{
+    color: white;
+    font-size: 30px;
+}
+.skills{
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.list{
+    list-style: none;
+    width: 60%;
+}
+div{
+    display: block;
+}
+.section{
+
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);       /* 2 column in 1 frame */
+    padding: 130px 85px;
+}
+.section-head{
+    font-size: 50px;
+}
+.section-des {
+    display: block;
+    font-size: 40px;
+}
+@media only screen and (max-width: 768px) {
+    body {
+      width: 300%;
+    }
+  }
