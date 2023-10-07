@@ -19,7 +19,7 @@ function App() {
               
             <Footer/>
             {/* <Footer/>                 browser will display 2 footer  */}
-          </Router> 
+      </Router> 
 
           
           
